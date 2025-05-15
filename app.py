@@ -12,7 +12,7 @@ def load_model(model_path="./my_test_model"):
 tokenizer, model = load_model()
 
 st.title("Customer Review Sentiment Classifier")
-st.write("Masukkan ulasan pelanggan dan lihat prediksi sentimennya (positif/negatif).")
+st.write("Masukkan ulasan pelanggan (english only) dan lihat prediksi sentimennya (positif/negatif).")
 
 user_input = st.text_area("Tulis ulasan di sini:")
 

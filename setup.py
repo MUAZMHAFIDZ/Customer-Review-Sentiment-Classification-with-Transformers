@@ -1,9 +1,8 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
-save_path = "./local_model"  # Folder lokal
+save_path = "./local_model"  
 
-# Download dan simpan
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 

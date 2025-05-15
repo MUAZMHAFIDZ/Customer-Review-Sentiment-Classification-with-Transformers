@@ -52,7 +52,7 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=train_dataset,
-    eval_dataset=test_dataset,  # masih bisa disimpan meskipun tidak otomatis dievaluasi
+    eval_dataset=test_dataset,  
 )
 
 trainer.train()
